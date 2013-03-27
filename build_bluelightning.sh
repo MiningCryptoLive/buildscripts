@@ -52,7 +52,7 @@ echo -e "${bldblu}Lunching your device ${txtrst}"
 lunch "bluelightning_$DEVICE-userdebug";
 
 echo -e ""
-echo -e "${bldblu}Starting to build BlueLightning ${txtrst}"
+echo -e "${bldblu}Starting to build bluelightning ${txtrst}"
 
 # start compilation
 brunch "bluelightning_$DEVICE-userdebug" -j"$THREADS";
